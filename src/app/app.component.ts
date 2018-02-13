@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  notes = [
+    {
+      title: 'Finish Laundry',
+      description: 'see above'
+    },
+    {
+      title: 'Finish CS408 Tests',
+      description: 'There are many things to do this weekend'
+    }
+  ]
+  constructor() {
+    
+  }
 }
